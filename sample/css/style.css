@@ -224,3 +224,87 @@ ul li a:hover{
 #h2{
     margin-top: -5px;
 }
+
+.paragaph{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 5px;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: flex-start ;
+    letter-spacing: 1px;
+    margin-left: 80px;
+}
+
+
+.right{
+    display: flex;
+    float: right;
+    padding: 0px 30px 0px 0px;
+}
+
+#btn{
+    
+    margin: 20px 20px;
+    padding: 20px 35px;
+    background-color: blue;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 200px;
+    color: #fff;
+    font-weight: lighter;
+    outline: none;
+}
+
+#btn:hover{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;;
+}
+/* 
+.card_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    
+}
+
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 50px auto ;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 20px;
+  } */
+
+
+
+  .wrap{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+.card{
+    box-shadow: 0, 40px ,8px 0, rgba(0, 0, 0, 0.6);
+    transition:0.4s;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 10px;
+}
+
+
