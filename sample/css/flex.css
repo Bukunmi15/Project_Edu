@@ -817,36 +817,14 @@ p span{
   }
 
 
-  section { 
-    min-height: 100vh; 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-     padding: 3rem;
+  .bottom{
+    background-color: #488C23;
+    color: #fff;
+    padding: 30px;
   }
 
-  /* blockquote.bubble { 
-      background-position: center;
-    background-repeat: no-repeat !important;
-      background-size: 100% 100%;
-    margin: 0 auto;
-      text-align: center;
-      height: 0;
-      box-sizing: content-box;
-      line-height: 1;
-  }
-  blockquote.speech {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/speech-bubble.svg); 
-    width: 25%;
-    padding-top: 6%;
-      padding-bottom: 20%;
-      color: #488C23;
-  } */
-  .speech{
-    width: 100px;
-    height: 100px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    background-color: red;
-    border-radius: 100%;
+  .bottom a{
+    text-decoration: none;
+    color: #fff;
   }
   
